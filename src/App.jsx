@@ -20,7 +20,7 @@ function evaluateTheoryAnswer(answer, expectedKeywords) {
 
 export default function App() {
   const total = questions.length;
-  const [started, setStarted] = useState(false);
+  const [started, setStarted] = useState(true);
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState(() => Array(total).fill(null));
   const [evaluations, setEvaluations] = useState(() => Array(total).fill(null));
