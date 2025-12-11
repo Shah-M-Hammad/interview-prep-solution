@@ -96,18 +96,7 @@ export default function App() {
           <h1>Interview Prep Quiz</h1>
           <p>MCQs and theory questions with answers and explanations. Not a strict quiz.</p>
         </header>
-        <div className="card">
-          <h2>Invitation</h2>
-          <p>We are pleased to invite you for an onsite assessment for the Next.js / React.js position.</p>
-          <p>The assessment will be a paper-and-pencil test designed to evaluate your theoretical understanding, real-time exposure, and problem-solving abilities.</p>
-          <h2>What to expect</h2>
-          <ul className="bullets">
-            <li>Mixed question types: MCQ and theory.</li>
-            <li>Immediate feedback with answers and explanations on Check Answer.</li>
-            <li>Designed to evaluate understanding and problem-solving.</li>
-          </ul>
-          <button className="primary" onClick={startQuiz}>Start Quiz</button>
-        </div>
+      
       </div>
     );
   }
