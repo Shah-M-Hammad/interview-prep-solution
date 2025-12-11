@@ -24,7 +24,7 @@ export default function App() {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState(() => Array(total).fill(null));
   const [evaluations, setEvaluations] = useState(() => Array(total).fill(null));
-  const [explanationsShown, setExplanationsShown] = useState(() => Array(total).fill(false));
+  const [explanationsShown, setExplanationsShown] = useState(() => Array(total).fill(true));
   const [showResults, setShowResults] = useState(false);
 
   const progressPct = useMemo(() => {
@@ -85,7 +85,7 @@ export default function App() {
     setCurrent(0);
     setAnswers(Array(total).fill(null));
     setEvaluations(Array(total).fill(null));
-    setExplanationsShown(Array(total).fill(false));
+    setExplanationsShown(Array(total).fill(true));
     setShowResults(false);
   }
 
